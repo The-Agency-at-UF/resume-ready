@@ -1,4 +1,4 @@
-﻿---
+---
 name: resume-ready-skill
 description: Generate concise STAR-based resume bullets emphasizing verified business impact from uploaded project briefs, meeting notes, technical documents, and reports. Use when asked to write showcase accomplishments or resume bullets from project files.
 ---
