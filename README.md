@@ -39,6 +39,7 @@ You can request an **executive showcase**, **developer resume**, or **metrics-fi
 This repository contains a Claude skill written in Markdown, with YAML frontmatter defining its name and description.
 
 - [SKILL.md](resume-ready-skill/SKILL.md): Main instructions, extraction workflow, bullet rules, and examples.
+- [context/](resume-ready-skill/context/): Source documents read before drafting bullets, including documents in subfolders. Add reusable organization background and project evidence here.
 - [metric-ideas.md](resume-ready-skill/references/metric-ideas.md): Suggested metrics for websites, AI automation, internal tools, archives, and marketing sites, including projects without users yet.
 
 There is no application build or local server to run.
@@ -52,11 +53,11 @@ There is no application build or local server to run.
 
 ## How to get started
 
-1. Download or clone this repository, then compress the `resume-ready-skill` folder into `resume-ready-skill.zip`. Include both `SKILL.md` and the `references` folder; do not zip the entire repository.
+1. Download or clone this repository. Add any reusable source documents to `resume-ready-skill/context/`, then compress the `resume-ready-skill` folder into `resume-ready-skill.zip`. Include `SKILL.md`, `references`, and `context`; do not zip the entire repository. Rebuild and re-upload the ZIP after changing bundled documents.
 2. Sign in to Claude and open [Customize > Skills](https://claude.ai/customize/skills).
 3. Click **+ Add**, select **Upload Skill**, and choose `resume-ready-skill.zip`.
 4. Confirm that **resume-ready** appears in your skills list and is toggled on.
-5. Start a new conversation and attach your company documents and project description.
+5. Start a new conversation and attach any additional company documents and project description. The skill reads bundled `context/` documents before drafting and uses them alongside your attachments; if the folder is empty, it uses the available attachments and facts you provide.
 7. Ask Claude to use **Resume Ready** to write a resume bullet.
 8. Review the bullet against your source documents. Replace **X** placeholders with verified numbers and resolve any **Verify** items before adding it to a resume.
 
