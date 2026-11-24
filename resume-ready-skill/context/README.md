@@ -1,9 +1,7 @@
-# Source documents
+# Shared Google Drive folder
 
-Place documents here that Resume Ready should read before creating any bullet points. Include organization background, project briefs, meeting notes, technical documents, and results reports in readable formats such as Markdown, text, PDF, Word, or slide decks.
+Drive folder URL: https://drive.google.com/drive/folders/1Ie51LbrW68WzXJBWe5rFbe_FvREz6kDI
 
-Subfolders can group documents by client or project. Use descriptive filenames and include document dates where possible so conflicting project updates can be resolved. Documents should identify individual contributions, delivery status, and measured outcomes where available.
+The skill uses the folder above as its only linked source. To change the configured folder, update the URL on that line, then rebuild and re-upload the skill ZIP. Share the folder with the Google accounts that will use the skill.
 
-Include this folder when packaging the skill ZIP. After changing its documents, rebuild and re-upload the ZIP to update an installed copy. Files attached to a conversation can supply additional or newer evidence.
-
-This README explains folder usage; it is not evidence of project work or results.
+Keep project evidence in Drive. Descriptive project names, document dates, and project subfolders help Claude find the files relevant to each request.
